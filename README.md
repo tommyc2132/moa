@@ -2,18 +2,20 @@
 
 캡처한 화면과 받은 사진을 한 보드에 모으고, 주석과 설명으로 전달하는 Windows 앱입니다.
 
-> **비공개 검토 버전 · 0.1.0-preview.1**
+> **비공개 검토 버전 · 0.1.0-preview.2**
 > 완성 전까지 저장소와 다운로드 파일을 비공개로 유지합니다. 접근 권한이 있는 GitHub 계정으로 로그인해야 열 수 있습니다.
+
+preview.2에서는 산호색 바탕에 이미지 카드 두 장을 겹친 새 모아 아이콘을 사용합니다.
 
 ## 다운로드
 
-**[Moa.exe 내려받기](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.1/Moa.exe)** · **[전체 릴리스 보기](https://github.com/tommyc2132/moa/releases)**
+**[Moa.exe 내려받기](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.2/Moa.exe)** · **[전체 릴리스 보기](https://github.com/tommyc2132/moa/releases)**
 
 | 파일 | 용도 |
 |---|---|
-| [Moa.exe](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.1/Moa.exe) | 설치 없이 실행하는 단일 EXE |
-| [Moa-0.1.0-preview.1-windows-x64.zip](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.1/Moa-0.1.0-preview.1-windows-x64.zip) | EXE와 사용 안내·출처·런타임 고지를 함께 받는 포터블 패키지 |
-| [SHA256SUMS.txt](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.1/SHA256SUMS.txt) | 받은 파일의 SHA256 확인용 |
+| [Moa.exe](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.2/Moa.exe) | 설치 없이 실행하는 단일 EXE |
+| [Moa-0.1.0-preview.2-windows-x64.zip](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.2/Moa-0.1.0-preview.2-windows-x64.zip) | EXE와 사용 안내·출처·런타임 고지를 함께 받는 포터블 패키지 |
+| [SHA256SUMS.txt](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.2/SHA256SUMS.txt) | 받은 파일의 SHA256 확인용 |
 
 - Windows 10(2004 이상)/11의 **Intel·AMD x64 PC용**입니다. ARM64 전용 빌드는 제공하지 않습니다.
 - .NET 런타임을 포함하므로 별도 .NET 설치가 필요 없습니다.
@@ -81,7 +83,7 @@
 
 ## 검토 범위
 
-기존 캡처·보드·사진 원본 보존·주석·여러 장면·설명 내보내기 자동 검증을 사용합니다. 모든 DPI·PC·영상/GIF 경로의 전체 검증이 완료된 정식 버전은 아닙니다. 불편한 동작은 이 비공개 저장소의 [Issues](https://github.com/tommyc2132/moa/issues)에 남길 수 있습니다.
+`preview.2`는 아이콘과 버전 표기를 바꾼 검토 빌드입니다. 실행 파일의 아이콘 10개 크기(16–256px), 정보 화면과 트레이 상태를 확인했습니다. 캡처·보드 기능 115개 자동 검증 통과 기록은 `preview.1`의 결과이며, 이번 아이콘 변경에서는 재실행하지 않았습니다. 모든 DPI·PC·영상/GIF 경로의 전체 검증이 완료된 정식 버전은 아닙니다. 불편한 동작은 이 비공개 저장소의 [Issues](https://github.com/tommyc2132/moa/issues)에 남길 수 있습니다.
 
 ## 출처
 
