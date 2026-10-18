@@ -2,23 +2,7 @@
 
 캡처한 화면과 받은 사진을 한 보드에 모으고, 주석과 설명으로 전달하는 Windows 앱입니다.
 
-> **비공개 검토 버전 · 0.1.0-preview.2**
-> 완성 전까지 저장소와 다운로드 파일을 비공개로 유지합니다. 접근 권한이 있는 GitHub 계정으로 로그인해야 열 수 있습니다.
-
-## 다운로드
-
-**[Moa.exe 내려받기](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.2-docs.1/Moa.exe)** · **[전체 릴리스 보기](https://github.com/tommyc2132/moa/releases)**
-
-| 파일 | 용도 |
-|---|---|
-| [Moa.exe](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.2-docs.1/Moa.exe) | 설치 없이 실행하는 단일 EXE |
-| [Moa-0.1.0-preview.2-windows-x64.zip](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.2-docs.1/Moa-0.1.0-preview.2-windows-x64.zip) | EXE와 사용 안내를 함께 받는 포터블 패키지 |
-| [SHA256SUMS.txt](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.2-docs.1/SHA256SUMS.txt) | 받은 파일의 SHA256 확인용 |
-
-- Windows 10(2004 이상)/11의 **Intel·AMD x64 PC용**입니다. ARM64 전용 빌드는 제공하지 않습니다.
-- .NET 런타임을 포함하므로 별도 .NET 설치가 필요 없습니다.
-- 원하는 폴더에 보관하고 `Moa.exe`를 실행하세요. 설치 프로그램이 아니며 관리자 권한 설치 없이 사용합니다.
-- 아직 코드 서명을 하지 않은 검토 빌드입니다. 다운로드한 파일의 출처와 해시는 이 저장소의 릴리스에서 확인할 수 있습니다.
+Windows 10(2004 이상)·11의 Intel/AMD x64 PC에서 사용합니다. `Moa.exe`를 실행하면 시작합니다.
 
 ## 처음 사용하기
 
@@ -71,13 +55,8 @@
 | Ctrl+S / Ctrl+O | 보드 저장 / 열기 |
 | Ctrl+D / Delete | 선택 복제 / 삭제. 장면 목록에 포커스가 있으면 장면에 적용 |
 
-## 저장과 업데이트
+## 저장과 종료
 
-- 기본 캡처 폴더는 `사진\OpenSnapPlus`, 설정·임시 복구 위치는 `%APPDATA%\OpenSnapPlus`입니다.
+- **Ctrl+S**로 `.osboard`를 저장하고 **Ctrl+O**로 다시 엽니다. 보드 이름은 상단 **보드 이름**에서 변경합니다.
+- 캡처 파일은 설정에서 지정한 폴더에 저장합니다.
 - 보드 창의 X는 작업을 임시 보관한 뒤 숨깁니다. 앱을 완전히 종료하려면 트레이의 **모아 종료**를 누르세요.
-- 업데이트 메뉴는 **모아 Releases 페이지**를 엽니다. 앱 종료 후 새 `Moa.exe`로 교체하세요.
-- [데이터 처리 안내](PRIVACY.md)
-
-## 문의
-
-불편한 동작은 이 비공개 저장소의 [Issues](https://github.com/tommyc2132/moa/issues)에 남길 수 있습니다.
