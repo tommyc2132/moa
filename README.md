@@ -1,14 +1,15 @@
 # 모아 (Moa) 📸
 
-[⬇️ 모아 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.2-docs.1)
+[⬇️ Windows 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.2-docs.1) · [🍎 Mac 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.1)
 
-화면을 캡처하고, 여러 사진을 한 보드에 모아 설명하는 Windows 앱입니다. 캡처한 화면이나 받은 스크린샷을 자유롭게 배치하고, 글씨·번호·말풍선·화살표로 필요한 내용을 표시하세요.
+화면을 캡처하고, 여러 사진을 한 보드에 모아 설명하는 Windows · Mac 앱입니다. 캡처한 화면이나 받은 스크린샷을 자유롭게 배치하고, 글씨·번호·말풍선·화살표로 필요한 내용을 표시하세요.
 
-> Windows 10 (2004 이상) / 11 · Intel / AMD x64 · 알림 영역 상주 · 설치 없이 실행
+> Windows 10 (2004 이상) / 11 · Intel / AMD x64
+> Mac: macOS 13 이상 · Apple Silicon / Intel Universal · 미리보기
 
 ---
 
-## 📥 다운로드 및 실행
+## 📥 Windows 다운로드 및 실행
 
 1. [릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.2-docs.1)에서 아래 파일을 받습니다.
 
@@ -21,6 +22,31 @@
 3. **Ctrl+Shift+3**을 누르고 영역을 드래그한 뒤 놓으면 캡처합니다.
 
 .NET을 따로 설치하지 않아도 사용할 수 있습니다.
+
+## 🍎 Mac 다운로드 및 실행
+
+[Mac 미리보기 릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.1)
+
+| 파일 | 사용법 |
+|---|---|
+| [Mac DMG](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.1/Moa-0.1.0-mac-preview.1-macos-universal.dmg) | 열고 **Moa.app**을 **Applications** 폴더로 이동 |
+| [Mac ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.1/Moa-0.1.0-mac-preview.1-macos-universal.zip) | 압축을 풀고 **Moa.app** 실행 |
+
+개인 테스트용 미리보기로 개발자 인증·공증 전입니다. 실행이 차단되면 **시스템 설정 → 개인정보 보호 및 보안 → 확인 없이 열기**에서 실행을 허용합니다. 캡처할 때 **화면 및 시스템 오디오 기록** 권한을 허용하고 앱을 다시 실행해 주세요.
+
+- **Control+Shift+3**: 영역을 드래그하고 놓으면 원본 크기 PNG 저장·복사. Enter는 필요 없습니다.
+- **Control+Shift+4**: 녹화 영역 선택 후 시작하고, 같은 키로 중지합니다. **무음 MP4**입니다.
+- **Command+L**: 라이브러리 · **Command+Shift+B**: 보드.
+- **Command+T / 1 / 2 / 3 / 4**: 텍스트 / 번호 / 말풍선 / 화살표 / 곡선 화살표.
+- **Command+B / Command+Shift+I / Command+U**: 굵게 / 기울임 / 밑줄.
+- **Command+S**: 보드 저장 · **Command+Z**: 실행 취소 · **Shift+Enter**: 줄바꿈.
+- 사진 파일 추가·붙여넣기·드래그, 사진/글씨/말풍선 모서리 조절, Space+드래그, 장면·번호 설명·PNG 내보내기를 지원합니다.
+- **모아 → 모아 설정**에서 캡처 단축키(Shift+S 가능), 저장 폴더, 소리와 자동 열기를 바꿉니다.
+- 영상은 라이브러리에서 두 번 클릭해 재생하고, 구간을 지정해 MP4/GIF로 저장합니다. GIF는 최대 60초입니다.
+- `.osboard`는 Windows 모아와 함께 사용할 수 있습니다. 설치된 글꼴이 다르면 글씨 모양과 배치가 달라질 수 있습니다.
+- 창을 닫아도 메뉴 막대에서 계속 실행됩니다. **Command+Q** 또는 **모아 종료**로 종료합니다.
+
+아래의 트레이 안내와 Ctrl 중심 단축키는 **Windows 기준**입니다. Mac은 위 단축키와 상단 메뉴를 사용하세요.
 
 ## 🔄 업데이트
 
