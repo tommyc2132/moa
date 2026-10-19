@@ -1,6 +1,6 @@
 # 모아 (Moa) 📸
 
-[⬇️ Windows 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.5) · [🍎 Mac 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.4)
+[⬇️ Windows 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.6) · [🍎 Mac 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.5)
 
 화면을 캡처하고, 여러 사진을 한 보드에 모아 설명하는 Windows · Mac 앱입니다. 캡처한 화면이나 받은 스크린샷을 자유롭게 배치하고, 글씨·번호·말풍선·화살표로 필요한 내용을 표시하세요.
 
@@ -11,12 +11,12 @@
 
 ## 📥 Windows 다운로드 및 실행
 
-1. [릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.5)에서 아래 파일을 받습니다.
+1. [릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.6)에서 아래 파일을 받습니다.
 
 | 파일 | 사용법 |
 |---|---|
-| [Moa.exe](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.5/Moa.exe) | 원하는 폴더에 보관한 뒤 바로 실행 |
-| [포터블 ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.5/Moa-0.1.0-preview.5-windows-x64.zip) | 압축을 풀고 폴더 안의 `Moa.exe` 실행 |
+| [Moa.exe](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.6/Moa.exe) | 원하는 폴더에 보관한 뒤 바로 실행 |
+| [포터블 ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.6/Moa-0.1.0-preview.6-windows-x64.zip) | 압축을 풀고 폴더 안의 `Moa.exe` 실행 |
 
 2. 실행하면 오른쪽 아래 알림 영역에 모아 아이콘이 나타납니다. 숨겨져 있다면 시계 옆 `^` 안에서 찾으세요.
 3. **Ctrl+Shift+3**을 누르고 영역을 드래그한 뒤 놓으면 캡처합니다.
@@ -25,12 +25,12 @@
 
 ## 🍎 Mac 다운로드 및 실행
 
-[Mac 미리보기 릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.4)
+[Mac 미리보기 릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.5)
 
 | 파일 | 사용법 |
 |---|---|
-| [Mac DMG](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.4/Moa-0.1.0-mac-preview.4-macos-universal.dmg) | 열고 **Moa.app**을 **Applications** 폴더로 이동 |
-| [Mac ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.4/Moa-0.1.0-mac-preview.4-macos-universal.zip) | 압축을 풀고 **Moa.app** 실행 |
+| [Mac DMG](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.5/Moa-0.1.0-mac-preview.5-macos-universal.dmg) | 열고 **Moa.app**을 **Applications** 폴더로 이동 |
+| [Mac ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.5/Moa-0.1.0-mac-preview.5-macos-universal.zip) | 압축을 풀고 **Moa.app** 실행 |
 
 개인 테스트용 미리보기로 개발자 인증·공증 전입니다. 실행이 차단되면 **시스템 설정 → 개인정보 보호 및 보안 → 확인 없이 열기**에서 실행을 허용합니다. 캡처할 때 **화면 및 시스템 오디오 기록** 권한을 허용하고 앱을 다시 실행해 주세요.
 
@@ -47,6 +47,10 @@
 - 창을 닫아도 메뉴 막대에서 계속 실행됩니다. **Command+Q** 또는 **모아 종료**로 종료합니다.
 
 아래의 트레이 안내와 Ctrl 중심 단축키는 **Windows 기준**입니다. Mac은 위 단축키와 상단 메뉴를 사용하세요.
+
+## 숫자 주석 크기 조절
+
+선택 도구 **V**로 번호 하나를 클릭하고, 선택 테두리의 **모서리 조절점**을 드래그하세요. 원과 숫자가 함께 확대·축소됩니다. 조절 중 크기와 시작 위치가 표시되며, **Esc**로 취소하거나 실행 취소로 되돌릴 수 있습니다. 번호와 연결된 설명도 유지됩니다. 크기는 지름 **12–512px**, 보드 안에서 조절됩니다. `.osboard`에 크기를 저장하며 양쪽 기기에서 최신 버전으로 편집하세요.
 
 ## 글씨 일부만 꾸미기 · 직접 그리기
 
