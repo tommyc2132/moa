@@ -1,6 +1,6 @@
 # 모아 (Moa) 📸
 
-[⬇️ Windows 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.4) · [🍎 Mac 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.3)
+[⬇️ Windows 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.5) · [🍎 Mac 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.4)
 
 화면을 캡처하고, 여러 사진을 한 보드에 모아 설명하는 Windows · Mac 앱입니다. 캡처한 화면이나 받은 스크린샷을 자유롭게 배치하고, 글씨·번호·말풍선·화살표로 필요한 내용을 표시하세요.
 
@@ -11,12 +11,12 @@
 
 ## 📥 Windows 다운로드 및 실행
 
-1. [릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.4)에서 아래 파일을 받습니다.
+1. [릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.5)에서 아래 파일을 받습니다.
 
 | 파일 | 사용법 |
 |---|---|
-| [Moa.exe](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.4/Moa.exe) | 원하는 폴더에 보관한 뒤 바로 실행 |
-| [포터블 ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.4/Moa-0.1.0-preview.4-windows-x64.zip) | 압축을 풀고 폴더 안의 `Moa.exe` 실행 |
+| [Moa.exe](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.5/Moa.exe) | 원하는 폴더에 보관한 뒤 바로 실행 |
+| [포터블 ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.5/Moa-0.1.0-preview.5-windows-x64.zip) | 압축을 풀고 폴더 안의 `Moa.exe` 실행 |
 
 2. 실행하면 오른쪽 아래 알림 영역에 모아 아이콘이 나타납니다. 숨겨져 있다면 시계 옆 `^` 안에서 찾으세요.
 3. **Ctrl+Shift+3**을 누르고 영역을 드래그한 뒤 놓으면 캡처합니다.
@@ -25,12 +25,12 @@
 
 ## 🍎 Mac 다운로드 및 실행
 
-[Mac 미리보기 릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.3)
+[Mac 미리보기 릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.4)
 
 | 파일 | 사용법 |
 |---|---|
-| [Mac DMG](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.3/Moa-0.1.0-mac-preview.3-macos-universal.dmg) | 열고 **Moa.app**을 **Applications** 폴더로 이동 |
-| [Mac ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.3/Moa-0.1.0-mac-preview.3-macos-universal.zip) | 압축을 풀고 **Moa.app** 실행 |
+| [Mac DMG](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.4/Moa-0.1.0-mac-preview.4-macos-universal.dmg) | 열고 **Moa.app**을 **Applications** 폴더로 이동 |
+| [Mac ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.4/Moa-0.1.0-mac-preview.4-macos-universal.zip) | 압축을 풀고 **Moa.app** 실행 |
 
 개인 테스트용 미리보기로 개발자 인증·공증 전입니다. 실행이 차단되면 **시스템 설정 → 개인정보 보호 및 보안 → 확인 없이 열기**에서 실행을 허용합니다. 캡처할 때 **화면 및 시스템 오디오 기록** 권한을 허용하고 앱을 다시 실행해 주세요.
 
@@ -47,6 +47,17 @@
 - 창을 닫아도 메뉴 막대에서 계속 실행됩니다. **Command+Q** 또는 **모아 종료**로 종료합니다.
 
 아래의 트레이 안내와 Ctrl 중심 단축키는 **Windows 기준**입니다. Mac은 위 단축키와 상단 메뉴를 사용하세요.
+
+## 글씨 일부만 꾸미기 · 직접 그리기
+
+텍스트나 말풍선을 **두 번 클릭**해 편집한 뒤, 바꾸고 싶은 단어·문장을 드래그해 선택하세요. 상단에서 **글자 색·글꼴·크기·굵게·기울임·밑줄**을 바꾸면 선택한 부분에만 적용됩니다. 서식 도구를 눌러도 선택한 범위를 유지합니다.
+
+- 편집 중 선택한 글자가 없으면 바꾼 서식은 **이후 입력하는 글자**에 적용됩니다.
+- 편집을 마친 뒤 선택 도구로 주석 자체를 선택하면 주석 전체 서식을 바꿀 수 있습니다.
+- **펜** 도구를 누르고 마우스를 누른 채 그리세요. Windows **Ctrl+8**, Mac **Command+8**로 선택합니다. 색과 선 굵기를 바꿀 수 있고, **Esc**로 그리는 중인 선을 취소합니다.
+- 부분 서식과 펜 경로도 `.osboard`에 저장됩니다. 양쪽 기기에서 이번 버전 이상을 사용하세요.
+
+새 캡처의 기본 저장 위치는 **사진(Pictures) → 스크린샷**입니다. 기존 기본 폴더의 캡처도 라이브러리에 함께 표시하며 파일을 이동하거나 삭제하지 않습니다. 사용자가 별도로 지정한 저장 위치는 유지합니다.
 
 ## 텍스트 목록과 제목
 
@@ -78,7 +89,7 @@
 - **라이브러리 편집** — 캡처를 모아 보고, 크롭·가로/세로 띠 잘라내기·주석 편집. 여러 캡처를 선택해 휴지통으로 보낼 수 있습니다.
 - **사진 보드** — 캡처와 다운로드한 이미지 여러 장을 한곳에 배치. 파일 추가·드래그·붙여넣기를 지원합니다.
 - **사진 이동·크기 조절** — 테두리와 조절점, 드래그 시작 위치와 현재 크기·위치를 보며 조절합니다. 큰 보드는 Space+드래그로 이동합니다.
-- **글씨와 주석** — 번호·텍스트·말풍선·직선/곡선 화살표·도형·모자이크. 글꼴·글자 크기·색·굵게·기울임·밑줄을 바꾸고, 글씨와 말풍선도 모서리로 크기를 조절합니다.
+- **글씨와 주석** — 번호·텍스트·말풍선·직선/곡선 화살표·펜·도형·모자이크. 글꼴·글자 크기·색·굵게·기울임·밑줄을 바꾸고, 글씨와 말풍선도 모서리로 크기를 조절합니다.
 - **장면과 그룹** — 여러 장면을 추가·복제·정렬하고, 사진과 주석을 묶어서 함께 이동·크기 조절합니다.
 - **번호 설명** — 번호마다 현재 문제·원하는 동작·완료 조건을 작성하고 보드에서 바로 확인합니다.
 - **고해상도 출력** — 사진 크기를 바꿔도 보관한 원본 PNG를 유지하고, 사진과 주석으로 고해상도 이미지를 만듭니다.
@@ -114,6 +125,7 @@
 | 선택 도구 | `V` |
 | 텍스트 / 번호 / 말풍선 | `Ctrl+T` / `Ctrl+1` / `Ctrl+2` |
 | 직선 / 곡선 화살표 | `Ctrl+3` / `Ctrl+4` |
+| 자유롭게 그리는 펜 | `Ctrl+8` |
 | 글씨 굵게 / 기울임 / 밑줄 | 글씨 편집·선택 시 `Ctrl+B` / `Ctrl+I` / `Ctrl+U` |
 | 글씨 줄바꿈 / 작성 완료 | `Shift+Enter` / `Enter` |
 | 보드 화면 이동 | `Space`를 누른 채 왼쪽 드래그 |
