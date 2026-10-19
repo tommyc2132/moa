@@ -1,6 +1,6 @@
 # 모아 (Moa) 📸
 
-[⬇️ Windows 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.6) · [🍎 Mac 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.5)
+[⬇️ Windows 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.7) · [🍎 Mac 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.5)
 
 화면을 캡처하고, 여러 사진을 한 보드에 모아 설명하는 Windows · Mac 앱입니다. 캡처한 화면이나 받은 스크린샷을 자유롭게 배치하고, 글씨·번호·말풍선·화살표로 필요한 내용을 표시하세요.
 
@@ -11,12 +11,12 @@
 
 ## 📥 Windows 다운로드 및 실행
 
-1. [릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.6)에서 아래 파일을 받습니다.
+1. [릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.7)에서 아래 파일을 받습니다.
 
 | 파일 | 사용법 |
 |---|---|
-| [Moa.exe](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.6/Moa.exe) | 원하는 폴더에 보관한 뒤 바로 실행 |
-| [포터블 ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.6/Moa-0.1.0-preview.6-windows-x64.zip) | 압축을 풀고 폴더 안의 `Moa.exe` 실행 |
+| [Moa.exe](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.7/Moa.exe) | 원하는 폴더에 보관한 뒤 바로 실행 |
+| [포터블 ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.7/Moa-0.1.0-preview.7-windows-x64.zip) | 압축을 풀고 폴더 안의 `Moa.exe` 실행 |
 
 2. 실행하면 오른쪽 아래 알림 영역에 모아 아이콘이 나타납니다. 숨겨져 있다면 시계 옆 `^` 안에서 찾으세요.
 3. **Ctrl+Shift+3**을 누르고 영역을 드래그한 뒤 놓으면 캡처합니다.
