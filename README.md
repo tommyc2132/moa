@@ -1,6 +1,6 @@
 # 모아 (Moa) 📸
 
-[⬇️ Windows 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.8) · [🍎 Mac 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.5)
+[⬇️ Windows 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.9) · [🍎 Mac 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.6)
 
 화면을 캡처하고, 여러 사진을 한 보드에 모아 설명하는 Windows · Mac 앱입니다. 캡처한 화면이나 받은 스크린샷을 자유롭게 배치하고, 글씨·번호·말풍선·화살표로 필요한 내용을 표시하세요.
 
@@ -11,12 +11,12 @@
 
 ## 📥 Windows 다운로드 및 실행
 
-1. [릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.8)에서 아래 파일을 받습니다.
+1. [릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.9)에서 아래 파일을 받습니다.
 
 | 파일 | 사용법 |
 |---|---|
-| [Moa.exe](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.8/Moa.exe) | 원하는 폴더에 보관한 뒤 바로 실행 |
-| [포터블 ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.8/Moa-0.1.0-preview.8-windows-x64.zip) | 압축을 풀고 폴더 안의 `Moa.exe` 실행 |
+| [Moa.exe](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.9/Moa.exe) | 원하는 폴더에 보관한 뒤 바로 실행 |
+| [포터블 ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-preview.9/Moa-0.1.0-preview.9-windows-x64.zip) | 압축을 풀고 폴더 안의 `Moa.exe` 실행 |
 
 2. 실행하면 오른쪽 아래 알림 영역에 모아 아이콘이 나타납니다. 숨겨져 있다면 시계 옆 `^` 안에서 찾으세요.
 3. **Ctrl+Shift+3**을 누르고 영역을 드래그한 뒤 놓으면 캡처합니다.
@@ -25,12 +25,12 @@
 
 ## 🍎 Mac 다운로드 및 실행
 
-[Mac 미리보기 릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.5)
+[Mac 미리보기 릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.6)
 
 | 파일 | 사용법 |
 |---|---|
-| [Mac DMG](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.5/Moa-0.1.0-mac-preview.5-macos-universal.dmg) | 열고 **Moa.app**을 **Applications** 폴더로 이동 |
-| [Mac ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.5/Moa-0.1.0-mac-preview.5-macos-universal.zip) | 압축을 풀고 **Moa.app** 실행 |
+| [Mac DMG](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.6/Moa-0.1.0-mac-preview.6-macos-universal.dmg) | 열고 **Moa.app**을 **Applications** 폴더로 이동 |
+| [Mac ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.6/Moa-0.1.0-mac-preview.6-macos-universal.zip) | 압축을 풀고 **Moa.app** 실행 |
 
 개인 테스트용 미리보기로 개발자 인증·공증 전입니다. 실행이 차단되면 **시스템 설정 → 개인정보 보호 및 보안 → 확인 없이 열기**에서 실행을 허용합니다. 캡처할 때 **화면 및 시스템 오디오 기록** 권한을 허용하고 앱을 다시 실행해 주세요.
 
@@ -56,7 +56,17 @@
 - **블록**: 넓은 몸통에 흰 테두리를 둘러 어두운 화면에서도 잘 보이는 화살표
 - **입체**: 블록 모양에 그라데이션과 그림자를 넣은 화살표
 
-선 굵기를 바꾸면 모양 전체가 함께 커집니다. 선택 도구 **V**로 화살표를 고른 뒤 ▾에서 다른 모양을 누르면 그 화살표만 바뀝니다. Mac 모아는 아직 새 모양을 기본 화살표로 표시합니다.
+선 굵기를 바꾸면 모양 전체가 함께 커집니다. 선택 도구 **V**로 화살표를 고른 뒤 ▾에서 다른 모양을 누르면 그 화살표만 바뀝니다. Mac에서는 화살표 옆 메뉴에서 고릅니다.
+
+## 말풍선 꼬리 방향 · 모자이크 강도
+
+- **말풍선 꼬리**: 말풍선 도구 옆 **▾**에서 고릅니다. **나가기**(기본)는 말풍선에서 가리킨 곳으로, **들어오기**는 가리킨 곳에서 말풍선으로 화살표가 향합니다.
+- **모자이크 강도**: 모자이크 도구 옆 **▾**에서 **약하게 · 보통(기본) · 강하게 · 아주 강하게**를 고릅니다. 강할수록 블록이 커져 더 많이 가려집니다. 큰 사진에서는 블록도 함께 커집니다.
+- 선택 도구 **V**로 말풍선이나 모자이크를 고른 뒤 ▾에서 다른 값을 누르면 그것만 바뀝니다. 이전에 만든 모자이크는 원래 모양을 유지합니다.
+
+## 텍스트 위치 미리보기
+
+텍스트 도구를 고르면 마우스 위치에 흰 테두리의 굵은 커서와 함께 **반투명한 "텍스트" 미리보기**가 현재 글꼴·크기·색으로 나타납니다. 클릭하면 바로 그 자리에서 입력이 시작됩니다.
 
 ## 사진 크기에 맞춘 주석 크기
 
@@ -72,7 +82,7 @@
 
 선택 도구 **V**로 번호 하나를 클릭하고, 선택 테두리의 **모서리 조절점**을 드래그하세요. 원과 숫자가 함께 확대·축소됩니다. 조절 중 크기와 시작 위치가 표시되며, **Esc**로 취소하거나 실행 취소로 되돌릴 수 있습니다. 번호와 연결된 설명도 유지됩니다. 크기는 지름 **12–512px**, 보드 안에서 조절됩니다. `.osboard`에 크기를 저장하며 양쪽 기기에서 최신 버전으로 편집하세요.
 
-## 빠른 마크업 (Windows)
+## 빠른 마크업
 
 Windows 캡처 도구처럼, 캡처하기 전에 고른 영역 위에 바로 표시할 수 있습니다.
 
@@ -88,7 +98,7 @@ Windows 캡처 도구처럼, 캡처하기 전에 고른 영역 위에 바로 표
 - **비주얼 검색**은 이미지(긴 변 1600px JPEG)를 **Bing에 올려** 브라우저에서 검색 결과를 엽니다. 모아에서 이미지를 외부로 보내는 유일한 버튼이며, 누를 때만 전송합니다.
 - 마크업 중에는 오른쪽 클릭으로 취소되지 않습니다. **Esc**로 취소합니다.
 
-## 스크롤 캡처 (Windows)
+## 스크롤 캡처
 
 한 화면에 다 보이지 않는 긴 페이지를 한 장으로 이어 붙입니다.
 
@@ -109,7 +119,7 @@ Windows 캡처 도구처럼, 캡처하기 전에 고른 영역 위에 바로 표
 - 이모지 도구 옆 **▾** 버튼에서 40개의 자주 쓰는 이모지를 고르거나, 아래 칸에서 **Win+.** 로 원하는 이모지를 입력합니다.
 - 선택 도구 **V**로 이모지를 고르고 목록에서 다른 이모지를 누르면 바뀝니다. 이동, **모서리 조절점**으로 정사각형 크기 조절(12–512px), 삭제, 실행 취소를 지원합니다.
 - PNG·고해상도 출력과 `.osboard`에도 컬러 이모지가 그대로 들어갑니다.
-- 이모지가 든 `.osboard`는 아직 Mac 모아에서 열 수 없습니다. Mac 지원은 다음 버전에서 추가합니다.
+- 이모지가 든 `.osboard`는 Mac 모아 mac-preview.6 이상에서 열고 편집할 수 있습니다.
 
 ## 글씨 일부만 꾸미기 · 직접 그리기
 
@@ -149,8 +159,8 @@ Windows 캡처 도구처럼, 캡처하기 전에 고른 영역 위에 바로 표
 
 - **영역 캡처** — 영역을 드래그하고 놓으면 바로 캡처. 설정에서 캡처 단축키를 바꿀 수 있습니다.
 - **영역 녹화** — 별도 단축키로 녹화를 시작하고 중지합니다.
-- **빠른 마크업** — 캡처 전에 선택 영역 위에 펜·형광펜·도형으로 표시하고, 공유하거나 Bing 비주얼 검색. (Windows)
-- **스크롤 캡처** — 영역을 고른 뒤 직접 스크롤하면 긴 화면을 한 장으로 이어 붙입니다. (Windows)
+- **빠른 마크업** — 캡처 전에 선택 영역 위에 펜·형광펜·도형으로 표시하고, 공유하거나 Bing 비주얼 검색. (Mac은 macOS 14 이상)
+- **스크롤 캡처** — 영역을 고른 뒤 직접 스크롤하면 긴 화면을 한 장으로 이어 붙입니다.
 - **이모지 스티커** — 컬러 이모지를 사진 위에 붙이고 크기를 조절합니다.
 - **라이브러리 편집** — 캡처를 모아 보고, 크롭·가로/세로 띠 잘라내기·주석 편집. 여러 캡처를 선택해 휴지통으로 보낼 수 있습니다.
 - **사진 보드** — 캡처와 다운로드한 이미지 여러 장을 한곳에 배치. 파일 추가·드래그·붙여넣기를 지원합니다.
