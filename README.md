@@ -1,6 +1,6 @@
 # 모아 (Moa) 📸
 
-[⬇️ Windows 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.10) · [🍎 Mac 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.6)
+[⬇️ Windows 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.10) · [🍎 Mac 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.7)
 
 화면을 캡처하고, 여러 사진을 한 보드에 모아 설명하는 Windows · Mac 앱입니다. 캡처한 화면이나 받은 스크린샷을 자유롭게 배치하고, 글씨·번호·말풍선·화살표로 필요한 내용을 표시하세요.
 
@@ -25,12 +25,12 @@
 
 ## 🍎 Mac 다운로드 및 실행
 
-[Mac 미리보기 릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.6)
+[Mac 미리보기 릴리스](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.7)
 
 | 파일 | 사용법 |
 |---|---|
-| [Mac DMG](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.6/Moa-0.1.0-mac-preview.6-macos-universal.dmg) | 열고 **Moa.app**을 **Applications** 폴더로 이동 |
-| [Mac ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.6/Moa-0.1.0-mac-preview.6-macos-universal.zip) | 압축을 풀고 **Moa.app** 실행 |
+| [Mac DMG](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.7/Moa-0.1.0-mac-preview.7-macos-universal.dmg) | 열고 **Moa.app**을 **Applications** 폴더로 이동 |
+| [Mac ZIP](https://github.com/tommyc2132/moa/releases/download/v0.1.0-mac-preview.7/Moa-0.1.0-mac-preview.7-macos-universal.zip) | 압축을 풀고 **Moa.app** 실행 |
 
 개인 테스트용 미리보기로 개발자 인증·공증 전입니다. 실행이 차단되면 **시스템 설정 → 개인정보 보호 및 보안 → 확인 없이 열기**에서 실행을 허용합니다. 캡처할 때 **화면 및 시스템 오디오 기록** 권한을 허용하고 앱을 다시 실행해 주세요.
 
@@ -56,14 +56,14 @@
 - **블록**: 넓은 몸통에 흰 테두리를 둘러 어두운 화면에서도 잘 보이는 화살표
 - **입체**: 블록 모양에 그라데이션과 그림자를 넣은 화살표
 
-선 굵기를 바꾸면 모양 전체가 함께 커집니다. 선택 도구 **V**로 화살표를 고르면 아래 줄에 그 화살표의 모양이 표시되고, 다른 모양을 누르면 그 화살표만 바뀝니다. Mac에서는 화살표 옆 메뉴에서 고릅니다.
+선 굵기를 바꾸면 모양 전체가 함께 커집니다. 선택 도구 **V**로 화살표를 고르면 아래 줄에 그 화살표의 모양이 표시되고, 다른 모양을 누르면 그 화살표만 바뀝니다.
 
 ## 말풍선 꼬리 방향 · 모자이크 강도
 
 - **말풍선 꼬리**: 말풍선 도구를 누르면 아래 줄 맨 앞의 **꼬리**에서 고릅니다. **들어오기**(기본)는 가리킨 곳에서 말풍선으로 화살표가 들어오고, **나가기**는 말풍선에서 가리킨 곳으로 꼬리가 나갑니다. 예전에 만든 말풍선은 원래 방향을 유지합니다.
 - **모자이크 강도**: 모자이크 도구를 누르면 아래 줄에서 **약하게 · 보통(기본) · 강하게 · 아주 강하게**를 고릅니다. 강할수록 블록이 커져 더 많이 가려집니다. 큰 사진에서는 블록도 함께 커집니다.
 - 선택 도구 **V**로 말풍선이나 모자이크를 고르면 아래 줄에 지금 값이 표시되고, 다른 값을 누르면 그것만 바뀝니다. 이전에 만든 모자이크는 원래 모양을 유지합니다.
-- Mac 모아는 아직 도구 옆 메뉴에서 고르고, 말풍선 기본은 나가기입니다.
+- Mac에서는 도구 줄 아래 서식 줄 맨 앞에 같은 선택지가 나옵니다.
 
 ## 텍스트 위치 미리보기
 
