@@ -1,4 +1,5 @@
 # 모아 (Moa) 📸
+- 조영우
 
 [⬇️ Windows 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.10) · [🍎 Mac 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.7)
 
