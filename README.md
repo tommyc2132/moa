@@ -1,5 +1,5 @@
 # 모아 (Moa) 📸
-- 조영우
+### 조영우
 
 [⬇️ Windows 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-preview.10) · [🍎 Mac 내려받기](https://github.com/tommyc2132/moa/releases/tag/v0.1.0-mac-preview.7)
 
@@ -235,7 +235,3 @@ Windows 캡처 도구처럼, 캡처하기 전에 고른 영역 위에 바로 표
 보드 창의 X는 작업을 임시 보관하고 창을 숨깁니다. 앱을 완전히 종료하려면 트레이의 **모아 종료**를 누르세요.
 
 앱을 삭제하려면 설정에서 Windows 로그인 시 자동 실행을 해제한 뒤, 앱을 종료하고 실행 파일을 삭제합니다. 저장해 둔 캡처와 보드 파일은 별도로 보관됩니다.
-
-## 💬 문의
-
-버그나 기능 제안은 [Issues](https://github.com/tommyc2132/moa/issues)에 남겨 주세요.
